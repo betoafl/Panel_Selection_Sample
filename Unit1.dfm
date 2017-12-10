@@ -58,6 +58,15 @@ object Form1: TForm1
     TabOrder = 2
     OnClick = btn2Click
   end
+  object btn3: TButton
+    Left = 616
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'M'#233'todo 3'
+    TabOrder = 3
+    OnClick = btn3Click
+  end
   object tmr1: TTimer
     OnTimer = tmr1Timer
     Left = 456
